@@ -21,3 +21,10 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    errors:
+      models:
+        image:
+          attributes:
+            data:
+              size_too_big: "file size is too big."

@@ -1,0 +1,16 @@
+<h1>
+  Update Image
+  <div class="pull-right">
+    <%= link_to images_path, :class => 'btn btn-primary' do %>
+      <span class="glyphicon glyphicon-arrow-left"></span>
+      Back to List
+    <% end %>
+
+    <%= link_to @image, :class => 'btn btn-info' do %>
+      <span class="glyphicon glyphicon-eye"></span>
+      Show
+    <% end %>
+  </div>
+</h1>
+
+<%= render 'form' %>

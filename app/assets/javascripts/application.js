@@ -12,5 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap.min
 //= require turbolinks
+//= require nprogress
+//= require nprogress-turbolinks
+//= require masonry.pkgd.min
+//= require imagesloaded.pkgd.min
 //= require_tree .
+$('body').on('hidden.bs.modal', '.modal', function () {
+  $(this).removeData('bs.modal');
+});

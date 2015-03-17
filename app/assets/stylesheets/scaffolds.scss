@@ -1,0 +1,46 @@
+#notice {
+  color: green;
+}
+
+#error_explanation {
+  width: 100%;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 22px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+    font-size: 14px;
+    list-style: square;
+  }
+  ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.form-horizontal .control-label {
+  text-align: left;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.current-image {
+  width: 300px;
+}
+
+.col-md-2 {
+  padding-left: 0px;
+}
